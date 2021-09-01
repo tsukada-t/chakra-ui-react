@@ -11,64 +11,73 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-} from "@chakra-ui/react";
-import { Link as ReactLink } from "react-router-dom";
-import { VFC } from "react";
+} from '@chakra-ui/react';
+import { Link as ReactLink } from 'react-router-dom';
+import { VFC } from 'react';
+
+type Lists = {
+  name: string;
+  path: string;
+};
+type FooterLists = {
+  title: string;
+  lists: Lists[];
+};
 
 export const Footer: VFC = () => {
-  const footerLists = [
+  const footerLists: FooterLists[] = [
     {
-      title: "news",
+      title: 'news',
       lists: [
         {
-          name: "news1",
-          path: "/"
+          name: 'news1',
+          path: '/',
         },
         {
-          name: "news2",
-          path: "/"
+          name: 'news2',
+          path: '/',
         },
         {
-          name: "news3",
-          path: "/"
+          name: 'news3',
+          path: '/',
         },
-      ]
+      ],
     },
     {
-      title: "product",
+      title: 'product',
       lists: [
         {
-          name: "product1",
-          path: "/"
+          name: 'product1',
+          path: '/',
         },
         {
-          name: "product2",
-          path: "/"
+          name: 'product2',
+          path: '/',
         },
         {
-          name: "product3",
-          path: "/"
+          name: 'product3',
+          path: '/',
         },
-      ]
+      ],
     },
     {
-      title: "other",
+      title: 'other',
       lists: [
         {
-          name: "other1",
-          path: "/"
+          name: 'other1',
+          path: '/',
         },
         {
-          name: "other2",
-          path: "/"
+          name: 'other2',
+          path: '/',
         },
         {
-          name: "other3",
-          path: "/"
+          name: 'other3',
+          path: '/',
         },
-      ]
+      ],
     },
-  ]
+  ];
 
   return (
     <>
@@ -80,7 +89,7 @@ export const Footer: VFC = () => {
         color="black"
         px="6"
         py="3"
-        display={{ base: "block", md: "none" }}
+        display={{ base: 'block', md: 'none' }}
       >
         <Accordion allowMultiple allowToggle>
           {footerLists.map((lists, index) => (
@@ -135,9 +144,9 @@ export const Footer: VFC = () => {
         color="black"
         pr="10"
         py="10"
-        display={{ base: "none", md: "flex" }}
+        display={{ base: 'none', md: 'flex' }}
       >
-        <Box my="auto"  textAlign="center" minW="200px">
+        <Box my="auto" textAlign="center" minW="200px">
           <Heading as="h2">LOGO</Heading>
           <Text display="block" as="small">
             example company
@@ -166,9 +175,9 @@ export const Footer: VFC = () => {
                   p="3px 5px"
                   opacity=".3s"
                   _hover={{
-                    bg: "black",
-                    color: "white",
-                    textDecoration: "none",
+                    bg: 'black',
+                    color: 'white',
+                    textDecoration: 'none',
                   }}
                 >
                   {list.name}

@@ -11,7 +11,7 @@ export const PrimaryBtn: VFC<Props> = (props) => {
 
   return (
     <Button
-      minW="150px"
+      minW="100px"
       colorScheme="blue"
       onClick={onClick}
     >
