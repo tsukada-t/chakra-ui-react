@@ -9,7 +9,7 @@ import { MainRoute } from "./routers/route";
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <MainRoute />
       </BrowserRouter>
     </ChakraProvider>
