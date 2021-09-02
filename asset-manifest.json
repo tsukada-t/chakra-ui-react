@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/chakra-ui/static/css/main.a617e044.chunk.css",
-    "main.js": "/chakra-ui/static/js/main.c32b5a2e.chunk.js",
-    "main.js.map": "/chakra-ui/static/js/main.c32b5a2e.chunk.js.map",
+    "main.js": "/chakra-ui/static/js/main.2de60bd4.chunk.js",
+    "main.js.map": "/chakra-ui/static/js/main.2de60bd4.chunk.js.map",
     "runtime-main.js": "/chakra-ui/static/js/runtime-main.3a9c6411.js",
     "runtime-main.js.map": "/chakra-ui/static/js/runtime-main.3a9c6411.js.map",
     "static/js/2.03aa24bf.chunk.js": "/chakra-ui/static/js/2.03aa24bf.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.3a9c6411.js",
     "static/js/2.03aa24bf.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.c32b5a2e.chunk.js"
+    "static/js/main.2de60bd4.chunk.js"
   ]
 }
